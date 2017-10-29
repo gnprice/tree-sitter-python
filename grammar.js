@@ -166,7 +166,7 @@ module.exports = grammar({
     break_statement: $ => 'break',
     continue_statement: $ => 'continue',
 
-    // Compount statements
+    // Compound statements
 
     _compound_statement: $ => choice(
       $.if_statement,
