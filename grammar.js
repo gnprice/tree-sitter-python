@@ -175,7 +175,7 @@ module.exports = grammar({
       $.try_statement,
       $.with_statement,
       $.async_function_definition,
-      $.function_definition,
+//      $.function_definition,
       $.class_definition,
       $.decorated_definition
     ),
